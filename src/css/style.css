@@ -1,0 +1,60 @@
+/* mobile min 375px */
+
+
+:root {
+    --color-gray-secondary: #7a777c;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    line-height: 88px;
+    margin: 0px 16px;
+
+}
+
+
+
+/* cta section */
+.cta {
+    background-color: #211c24;
+}
+.cta > p {
+    color: var(--color-gray-secondary);
+    font-size: 19px;
+    text-align: center;
+}
+.cta-title {
+    text-align: center;
+    color: #fff;
+   
+    font-size: clamp(4.5rem, 4.5rem + 0vw, 4.5rem);
+}
+
+.cta-subtitle {
+    font-family: "Figtree", sans-serif;
+    color: var(--color-gray-secondary);
+    text-align: center;
+}
+
+
+.cta-btn {
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 5px;
+    width: 184px;
+    height: 56px;
+    line-height: 56px;
+    margin: 32px auto 48px auto;
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.cta-img {
+    display: block;
+    margin: 0 auto;
+}
