@@ -118,3 +118,126 @@
     border-radius: 6px;
     font-weight: bold;
 }
+
+.browse-div > div:first-child {
+    display: flex;
+    margin: 64px 16px 48px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.browse-div > div > div {
+    margin-top: 8px;
+}
+
+.browse-div > div > div img {
+    display: inline-block;
+    margin: 15px;
+    
+}
+.browse-box {
+    margin:16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.card {
+    background-color: #EDEDED;
+    width: 163px;
+    height: 128px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.sales-description {
+    display: flex;
+    justify-content: space-between;
+}
+.sales {
+    margin-bottom: 100px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.sales-btn {
+    color: #8B8B8B;
+    padding-bottom: 10px;
+}
+.sales-btn-active {
+   
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+
+/* card item */
+.card-item .box {
+   
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    width: 163.5px;
+    height: 352px;
+    text-align: center;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 16px;
+}
+
+.card-item {
+    display: flex;
+   
+    justify-content: space-around;
+    
+}
+
+
+
+.card-item  .box p {
+    color: #000000;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    margin-right: 12px;
+    margin-left: 12px;
+    
+}
+
+.card-item h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.card-item-btn {
+    width: 139.50px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 8px;
+    color: white;
+    background-color: #000;
+    font-size: 0.87rem;
+    font-weight: bold;
+    
+}
+
+.card-item-btn:hover {
+    background-color: #000;
+    opacity: .9;
+}
+
+.card-item-heart{
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    margin-left: 0;
+    margin-bottom: 8px;
+
+}
+
+.card-item-heart button {
+    margin-top: 24px;
+}
+
